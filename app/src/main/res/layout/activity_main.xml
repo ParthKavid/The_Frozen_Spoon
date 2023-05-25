@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20px"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="4dp">
+
+
+        <TextView
+            android:id="@+id/lbl_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:padding="20px"
+            android:shadowColor="#009688"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/lbl_signup"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_firstname"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txt_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_lastname"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txt_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_email_id"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txt_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_phone_no"
+            android:inputType="number"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txt_psw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_psw"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txt_confirm_psw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/et_custom"
+            android:hint="@string/txt_confirm_psw"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:shadowColor="#009688"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_custom"
+
+            android:text="@string/btn_signup"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/lbl_loginLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:text="Existing User? Click here to login."
+            android:textColor="#1C56FB" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

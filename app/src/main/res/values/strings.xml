@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">The Frozen Spoon</string>
+    <string name="lbl_signup">Sign Up</string>
+    <string name="txt_firstname">First Name</string>
+    <string name="txt_lastname">Last Name</string>
+    <string name="txt_email_id">Email Id</string>
+    <string name="txt_phone_no">Phone</string>
+    <string name="txt_psw">Password</string>
+    <string name="txt_confirm_psw">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_login">Login</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_registrationLink">New Customer? Click Here..</string>
+    <string name="lbl_loginLink">Existing User? Click Here to Login</string>
+    <string name="content_description_media">Existing User? Click Here to Login</string>
+    <string name="title">Existing User? Click Here to Login</string>
+    <string name="secondary_text">Existing User? Click Here to Login</string>
+    <string name="supporting_text">Existing User? Click Here to Login</string>
+    <string name="action_1">Add</string>
+    <string name="action_2">Add</string>
+    <string name="detail_checkout">Checkout</string>
+    <string name="payment_customerDetail">Customer Detail</string>
+    <string name="payment_firstName">First Name</string>
+    <string name="payment_lastName">Last Name</string>
+    <string name="payment_address">Address</string>
+    <string name="payment_phone">Phone</string>
+    <string name="payment_credit">Credit</string>
+    <string name="payment_debit">Debit</string>
+    <string name="payment_cash">Cash</string>
+    <string name="payment_cardDetail">Card Detail</string>
+    <string name="payment_cardNumber">Card Number</string>
+    <string name="payment_cvv">CVV</string>
+    <string name="payment_pay">Pay</string>
+    <string name="lbl_confirm_title">ORDER COMPLETED</string>
+    <string name="lbl_order_confirm">Order Confirmation</string>
+    <string name="lbl_thanks">Thank you for your puchase!</string>
+    <string name="lbl_purchased_item_title">Purchased Item</string>
+    <string name="lbl_ship_to">Ship to</string>
+    <string name="lbl_order_total">Order Total</string>
+    <string name="lbl_item_price">Item price</string>
+    <string name="lbl_shipping">Shipping</string>
+    <string name="lbl_confirm_total">Total</string>
+    <string name="btn_continue_shop">Continue Shopping</string>
+    <string name="action_logout">Logout</string>
+
+
+
+</resources>
